@@ -238,7 +238,7 @@ This section contains all of the data for this project. The data dictionary is p
 
 The original dataset used for this project was built by the project group. The photos within the dataset were taken by Team Leader Carson Crenshaw and were subsequently compiled for use within this project. The assemblage of this dataset was modeled after the [Grocery Store DataSet](https://github.com/marcusklasson/GroceryStoreDataset.git) built by @marcusklasson. This data was foundational to research presented at the Institute of Electrical and Electronics Engineers 2019 Winter Conference on Applications of Computer Vision. The published research by Klasson, Zhang, and Kjellstrom (2020) contains a collection of numerous pictures of grocery store items taken on a smartphone camera in different locations. While the images used are original, the image file structure used in Project 2 is adapted from the aforementioned dataset.  
 
-The "Grocery Item Photos" folder above includes six sub-folders: apple, orange, banana, broccoli, carrot, and group. With respect to the first five folders, these contain the images used to test the image detection capabilities of the model on images with single items. The final folder, "group," is used to test the image detection capabilities of the model on images with multiple items. 
+The "Grocery Item Photos" folder above includes six sub-folders: "apple," "orange," "banana," "broccoli," "carrot," and "group." With respect to the first five folders, these contain the images used to test the image detection capabilities of the model on images with single items. The final folder, "group," is used to test the image detection capabilities of the model on images with multiple items. 
 
 The model can be tested on other images outside the ones used for this project, but they must be in a .jpeg file format. 
 
@@ -257,7 +257,28 @@ The file structure used in the project is modeled below. For brevity, only the m
 **apple**
 | 	Column Name	 | 	Description	 | 	Data Type	 |  
 | 	:-----:	 | 	:-----:	 | 	:-----:	 |
-| 	headlines	| 	Title or heading of the article	| 	String	 | 
+| 	apple_01	| 	Single item image of an apple	| 	JPEG	 | 
+| 	apple_02	| 	Single item image of an apple	| 	JPEG	 | 
+| 	apple_03	| 	Single item image of an apple	| 	JPEG	 | 
+| 	apple_04	| 	Single item image of an apple	| 	JPEG	 |  
+| 	apple_05	| 	Single item image of an apple	| 	JPEG	 | 
+
+The other sub-folders utilized in this project follow the same orientation as the apple dataset shown above. They are each a folder filled with sample images of their respective grocery item to be used in the testing of an image detection model. 
+
+The final dataset "accuracy.csv" is assembled at the conclusion of the image detection model for single item images. This dataset details the accuracy for each test run on each image. 
+
+**accuracy.csv**
+| 	Column Name	 | 	Description	 | 	Data Type	 |  
+| 	:-----:	 | 	:-----:	 | 	:-----:	 |
+| 	File Name	| 	Name of image file used	| 	String	 | 
+| 	Object	| 	Name of object detected in the file	| 	String	 | 
+| 	Detected?	| 	Has the object in question been detected?	| 	Binary (Yes/No)	 | 
+| 	Confidence	| 	Numerical quantification of object detection model accuracy	| 	Integer	 |  
+| 	Accepted?	| 	 Is the confidence value greater than or equal to 75%?	| 	Binary (Yes/No)	 | 
+
+## [Figures](https://github.com/C-Crenshaw/Project1_DS4002/tree/31af060ae50a6ab3334985967c7f2793b55dfb41/FIGURES)
+
+
 
 
 
