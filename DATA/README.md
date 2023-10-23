@@ -9,4 +9,7 @@ The assemblage of this dataset was modeled after the [Grocery Store DataSet](htt
 The "Grocery Item Photos" folder above includes six sub-folders: apple, orange, banana, broccoli, carrot, and group. With respect to the first five folders, these contain the images used to test the image detection capabilities of the model on images with single items. The final folder, "group," is used to test the image detection capabilities of the model on images with multiple items. 
 
 
+The model can be tested on other images outside the ones used for this project, but they must be in a .jpeg file format. 
+
+
 This process is extensively noted in the repository README.md file. 
