@@ -236,10 +236,28 @@ cv2_imshow(rgb_annotated_image)
 
 This section contains all of the data for this project. The data dictionary is provided below. Relevant notes about use of data are also included. 
 
-The original dataset ('nyt-metadata.csv') is pulled from @aryansingh0909 on [Kaggle](https://www.kaggle.com/datasets/aryansingh0909/nyt-articles-21m-2000-present). This dataset contains a comprehensive collection of over 2.1 million articles from The New York Times spanning from January 1, 2000 to the present day [1]. The original dataset’s size is approximately 5 GB which was too large to handle and manipulate in any meaningful ways in a reasonable amount of time. As such, a random sample of roughly 1% was used which reduced the size to 6.12 MB. Due to the size of the original population, this is still a valid and representative sample size. The other major contributor to the size reduction was removing unnecessary columns which left 10 columns from the original 20. 
+The original dataset used for this project was built by the project group. The photos within the dataset were taken by Team Leader Carson Crenshaw and were subsequently compiled for use within this project. The assemblage of this dataset was modeled after the [Grocery Store DataSet](https://github.com/marcusklasson/GroceryStoreDataset.git) built by @marcusklasson. This data was foundational to research presented at the Institute of Electrical and Electronics Engineers 2019 Winter Conference on Applications of Computer Vision. The published research by Klasson, Zhang, and Kjellstrom (2020) contains a collection of numerous pictures of grocery store items taken on a smartphone camera in different locations. While the images used are original, the image file structure used in Project 2 is adapted from the aforementioned dataset.  
 
-The updated dataset ('nyt-metadata-SAMPLE.csv') is a cleaned version of the original and is largely used throughout the analysis. Within the python file it is used/uploaded in excel format, but can also be downloaded as a .csv when cleaned. 
+The "Grocery Item Photos" folder above includes six sub-folders: apple, orange, banana, broccoli, carrot, and group. With respect to the first five folders, these contain the images used to test the image detection capabilities of the model on images with single items. The final folder, "group," is used to test the image detection capabilities of the model on images with multiple items. 
 
+The model can be tested on other images outside the ones used for this project, but they must be in a .jpeg file format. 
+
+The file structure used in the project is modeled below. For brevity, only the master folder "Grocery Item Photos" and the sub-folder "apple" folder/dataset will be illustrated here.
+
+**Grocery Item Photos**
+| 	Column Name	 | 	Description	 | 	Data Type	 |  
+| 	:-----:	 | 	:-----:	 | 	:-----:	 |
+| 	apple	| 	Single item images of apples	| 	Folder	 | 
+| 	orange	| 	Single item images of oranges	| 	Folder	 | 
+| 	banana	| 	Single item images of bananas	| 	Folder	 | 
+| 	broccoli	| 	Single item images of broccoli	| 	Folder	 | 
+| 	carrot	| 	Single item images of carrots	| 	Folder	 | 
+| 	group	| 	Multiple item images of grocery products; images featuring multiple of the single produce items (apple, orange, banana, broccoli, carrot)	| 	Folder	 | 
+
+**apple**
+| 	Column Name	 | 	Description	 | 	Data Type	 |  
+| 	:-----:	 | 	:-----:	 | 	:-----:	 |
+| 	headlines	| 	Title or heading of the article	| 	String	 | 
 
 
 
