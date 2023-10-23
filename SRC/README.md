@@ -6,7 +6,7 @@ Updated verisons of the source code are included in this file. Python file and J
 Within the files, the structure of the code is largely oriented around three sections: Installs and Imports, Detection Model with Single Items, and Detection Model with Multiple Items. Users should follow each section carefully to reproduce the desired outputs. This ReadMe includes a supplemental documentation to the main repository and gives a detailed account of each section's code. 
 
 
-###Installs and Imports
+### Installs and Imports
 Our model an engineered adaptation of the MediaPipe Object Detector. This model allows the user to detect the presence and location of multiple classes of objects in Python. In order to run this model, the following imports/installs must be loaded into the Python software: MediaPipe library, displaying imports, object detection imports, and MediaPipe "EfficientDet-Lite2 (int8)" model. 
 
 Specifically with respect to the "efficientdet_lite2.tflite" file, the model will not run unless this object is in the files section in Google Colab/Python software/Jupyter Notebook. See the codeblock below. 
