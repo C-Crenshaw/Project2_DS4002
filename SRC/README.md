@@ -27,5 +27,4 @@ The code within this section is specifically tailored to utilize the Object Dete
 As a result of not utilizing a data table to test for accuracy, the model generates a price point for each bundle of groceries. The final prices for each group of groceries can also be found in the figures folder. 
 
 
-#### Note: 
-The original file can be found on [Google Colaboratory](https://colab.research.google.com/drive/1YPt-yQZR_OffM-WwLsKOsho0I5PVS_6A?usp=sharing](https://colab.research.google.com/drive/14-p9glhQ1IrUiko6xtq0YeYRt7nQd3yb?usp=sharing)https://colab.research.google.com/drive/14-p9glhQ1IrUiko6xtq0YeYRt7nQd3yb?usp=sharing).  
+#### Note: The original file can be found on [Google Colaboratory](https://colab.research.google.com/drive/1YPt-yQZR_OffM-WwLsKOsho0I5PVS_6A?usp=sharing](https://colab.research.google.com/drive/14-p9glhQ1IrUiko6xtq0YeYRt7nQd3yb?usp=sharing)https://colab.research.google.com/drive/14-p9glhQ1IrUiko6xtq0YeYRt7nQd3yb?usp=sharing).  
