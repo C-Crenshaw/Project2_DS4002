@@ -232,7 +232,7 @@ rgb_annotated_image = cv2.cvtColor(annotated_image, cv2.COLOR_BGR2RGB)
 cv2_imshow(rgb_annotated_image)
 ```
 
-## [Data](https://github.com/C-Crenshaw/Project1_DS4002/tree/9814e54ec5d0e0119e89d199a6f0073ec55778e4/DATA)
+## [Data](https://github.com/C-Crenshaw/Project2_DS4002/tree/e08487d3cf52566ae0569532b7cabfeb587244f9/DATA)
 
 This section contains all of the data for this project. The data dictionary is provided below. Relevant notes about use of data are also included. 
 
